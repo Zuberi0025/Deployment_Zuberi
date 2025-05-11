@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-def plot_time_series(df1):
+def time_series(df):
     fig,ax=plt.subplots(figsize=(8,5))
-    ax.scatter(df1['Year'],df1['Yield'],color='k')
+    ax.scatter(df['Year'],df['Yield'],color='k')
     ax.set_xlabel("Year")
     ax.set_ylabel("Rainfall(mm)")
     ax.set_title("Monthly Rainfall")
