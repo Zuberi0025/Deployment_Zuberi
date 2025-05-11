@@ -1,4 +1,4 @@
+streamlit==1.45.0
 pandas
 numpy
-streamlit
-matplotlib
+matplotlib==3.8.3
