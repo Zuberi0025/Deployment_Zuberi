@@ -1,5 +1,4 @@
 import streamlit as st
-import matplotlib.pyplot as plt
 from visualize import time_series
 def show(df):
     st.header('EDA')
