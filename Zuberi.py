@@ -1,5 +1,5 @@
 import streamlit as st
-import EDA
+from list import EDA
 from data import load_data
 df=load_data()
 st.title('Yield Prediction')
